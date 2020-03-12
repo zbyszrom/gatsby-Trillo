@@ -12,8 +12,7 @@ const Layout = ({ children }) => {
   
   return (
     <>
-    <Header/>
-    
+    <Header/>   
      <content>
        <Sidebar/>{children}
        </content>
