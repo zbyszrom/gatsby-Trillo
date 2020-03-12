@@ -1,7 +1,7 @@
 import React from 'react'
-import Description from './description'
-import UserReviews from './userReviews'
-import Cta from './cta'
+import Description from './detail/description'
+import UserReviews from './detail/userReviews'
+import Cta from './detail/cta'
 
 const Detail = ()=>{
     return(

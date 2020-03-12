@@ -3,10 +3,7 @@
 import React from "react"
 import Header from './header'
 import Sidebar from './sidebar'
-
-
-
-import "./layout.css"
+import "../styles/layout.css"
 
 const Layout = ({ children }) => {
   

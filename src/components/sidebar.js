@@ -1,4 +1,6 @@
 import React from 'react'
+import {FaHotel, FaPlane, FaMap} from "react-icons/fa"
+import {AiTwotoneCar} from 'react-icons/ai'
 
 const Sidebar = ()=>{
     return(
@@ -7,25 +9,25 @@ const Sidebar = ()=>{
     >
             <li >
                 <a href="#" >
-                    
+                    <FaHotel/>
                     <span>Hotel</span>
                 </a>
             </li>
             <li >
                 <a href="#" >
-                    
+                    <FaPlane/>
                     <span>Flight</span>
                 </a>
             </li>
             <li >
                 <a href="#" >
-                    
+                    <AiTwotoneCar/>
                     <span>Car rental</span>
                 </a>
             </li>
             <li >
-                <a href="#" class="side-nav__link">
-                    
+                <a href="#" >
+                    <FaMap/>
                     <span>Tours</span>
                 </a>
             </li>

@@ -1,11 +1,15 @@
 import React from 'react'
+import {AiTwotoneStar} from "react-icons/ai"
 
 const Overview = ()=>{
     return(
     <div>
         <h1>Hotel Las Palmas</h1>
         <div>
-
+        <AiTwotoneStar/>
+        <AiTwotoneStar/>
+        <AiTwotoneStar/>
+        <AiTwotoneStar/>
         </div>
         <div>
             <button>Albufeira, Portugal</button>
