@@ -8,8 +8,8 @@ hotelImg: allFile(filter: {name: {in: ["hotel-1", "hotel-2", "hotel-3"]}}) {
     edges {
       node {
         childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
+          fluid{
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }
