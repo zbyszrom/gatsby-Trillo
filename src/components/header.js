@@ -6,27 +6,19 @@ import User from '../images/user.jpg'
 const Header = ()=>{
     return(
         <header>
-            <img src={logo} alt="logo"/>
-        <form action="#" className="search">
-                    <input type="text" className="search__input" placeholder="Search hotels"/>
-                    <button className="search__button">
+            <img src={logo} alt="logo" className = 'logo'/>
+        <form action="#" >
+                    <input type="text"  placeholder="Search hotels"/>
+                    <button className="">
                       <GiMagnifyingGlass/> 
                     </button>
         </form>
-        <nav className="user-nav">
-        <div className="user-nav__icon-box">
-            
-            <span cclassName="user-nav__notification">7</span>
+        <nav > 
+        <div className="user-nav">
+            <img src = {User} alt= 'user' className = 'user-photo'/>
+            <span >Jonas</span>
         </div>
-        <div className="user-nav__icon-box">
-            
-            <span className="user-nav__notification">13</span>
-        </div>
-        <div className="user-nav__user">
-            <img src = {User} alt= 'user'/>
-            <span className="user-nav__user-name">Jonas</span>
-        </div>
-    </nav>
+        </nav>
     </header>
     )
 }

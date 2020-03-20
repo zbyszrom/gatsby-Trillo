@@ -5,14 +5,14 @@ import User2 from "../../images/user-2.jpg"
 
 const UserReviews = ()=>{
     return(
-        <div>
+        <div className ='reviews'>
         <figure>
         <blockquote >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
         </blockquote>
         <figcaption>
             <div>
-                <img src= {User2} alt = ''/>
+                <img src= {User2} alt = ''className = 'user-photo'/>
                 <p>Mary Thomas</p>
                 <p>Sept 13th, 2017</p>
             </div>
@@ -24,7 +24,7 @@ const UserReviews = ()=>{
         </blockquote>
         <figcaption>
             <div>
-                <img src= {User1} alt = ''/> 
+                <img src= {User1} alt = ''className = 'user-photo'/> 
                 <p>Nick Smith</p>
                 <p>Feb 23rd, 2017</p>
             </div>

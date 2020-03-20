@@ -5,29 +5,28 @@ import {AiTwotoneCar} from 'react-icons/ai'
 const Sidebar = ()=>{
     return(
         <nav >
-        <ul 
-    >
+        <ul >
             <li >
                 <a href="#" >
-                    <FaHotel/>
+                    <FaHotel className='icon'/>
                     <span>Hotel</span>
                 </a>
             </li>
             <li >
                 <a href="#" >
-                    <FaPlane/>
+                    <FaPlane className='icon'/>
                     <span>Flight</span>
                 </a>
             </li>
             <li >
                 <a href="#" >
-                    <AiTwotoneCar/>
+                    <AiTwotoneCar className='icon'/>
                     <span>Car rental</span>
                 </a>
             </li>
             <li >
                 <a href="#" >
-                    <FaMap/>
+                    <FaMap className='icon'/>
                     <span>Tours</span>
                 </a>
             </li>

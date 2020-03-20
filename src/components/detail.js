@@ -5,7 +5,7 @@ import Cta from './detail/cta'
 
 const Detail = ()=>{
     return(
-        <div>
+        <div className ='detail'>
         <Description/>
         <UserReviews/>
         <Cta/>

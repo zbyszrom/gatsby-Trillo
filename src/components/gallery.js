@@ -28,10 +28,11 @@ const Gallery = ()=>{
     return(
         <div>
             <p>gallery</p>
-            <Img fluid = {hotels[0].node.childImageSharp.fluid} />
-            <Img fluid = {hotels[1].node.childImageSharp.fluid} />
-            <Img fluid = {hotels[2].node.childImageSharp.fluid} />
-            
+            <div className = 'gallery'>
+            <Img fluid = {hotels[0].node.childImageSharp.fluid} className ='photo'/>
+            <Img fluid = {hotels[1].node.childImageSharp.fluid} className ='photo'/>
+            <Img fluid = {hotels[2].node.childImageSharp.fluid} className ='photo'/>
+            </div>
             
         </div>
         

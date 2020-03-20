@@ -8,12 +8,13 @@ import "../styles/layout.css"
 const Layout = ({ children }) => {
   
   return (
-    <>
+    <div className = 'container'>
     <Header/>   
-     <content>
-       <Sidebar/>{children}
-       </content>
-     </>
+     <div className = 'content'>
+       <Sidebar/>
+       {children}
+     </div>
+     </div>
   )     
 }
 

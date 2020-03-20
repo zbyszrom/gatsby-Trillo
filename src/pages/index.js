@@ -9,11 +9,11 @@ import Detail from '../components/detail'
 
 const IndexPage = () => (
   <Layout>
-    
+    <main>
     <Gallery/>
     <Overview/>
     <Detail/>
-    
+    </main>
   </Layout>
 )
 

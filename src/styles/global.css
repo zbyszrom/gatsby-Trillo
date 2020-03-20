@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+  }
+body {
+      line-height: 1.5;
+      font-family: 'Inria Serif', serif;
+  }
+h1 {
+    font-size: 2rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 1.5rem 3rem;
+}
+p:not(:last-of-type) 
+{
+    margin-bottom: 1.2rem;
+}
+a {
+    text-decoration: none;
+  } 
+ul {
+    margin: 1.5rem 0;
+    padding: 1.5em 0;
+}
+li {
+    list-style: none;
+    position: relative;
+    
+
+}
+li:not(:last-child) {
+    margin-bottom: .5rem;
+}
+button {
+    border: none;
+    font-size: inherit;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 2px;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .2s; 
+}
+form {
+    flex: 0 0 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    border: none;
+    padding: .7rem 2rem;
+    border-radius: 100px;
+    width: 90%;
+    transition: all .2s;
+    margin-right: -3.25rem;
+}
+input:focus {
+    outline: none;
+    width: 100%;
+    
+}
+
+.photo {
+    width: 100%;
+    display: block;
+    
+}
+.user-photo {
+    height: 5rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.logo {
+    height: 5rem;
+    margin-left: 2rem;
+}
+.icon {
+    width: 1.25rem;
+        height: 1.25rem;
+        margin-right: 1.25rem;
+        fill: #777;
+}
+.center {
+    text-align:center; 
+}
+.user-nav {
+    align-self: stretch;
+    
+    display: flex;
+    align-items: center;
+}
+

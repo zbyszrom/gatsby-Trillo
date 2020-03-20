@@ -1,0 +1,59 @@
+.container {
+    max-width: 120rem;
+    margin: 8rem auto;
+    min-height: 50rem;
+
+}
+header {
+    
+    height: 8rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content {
+    display: flex;
+}
+nav {
+    
+    margin: 1.5rem;
+    
+}
+main {
+    background-color: #fff;
+    flex: 1;
+}
+.gallery {
+    display: flex;
+    margin-right:2rem;
+}
+.detail {
+   
+    display: flex;
+    padding: 2.5rem;
+    
+}
+.description {
+    padding: 2rem;
+    flex: 0 0 60%;
+    margin-right: 3rem;
+}
+.recomend {
+    display: flex;
+    align-items: center;
+}
+.friends {
+    display: flex;
+}
+.reviews {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cta {
+    padding: 2.25rem 0;
+    text-align: center;
+}
